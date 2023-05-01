@@ -1,0 +1,2 @@
+1. The bug was because the sum of num1 and num2 were using strings, so when they were combined with a '+', the 2 strings were concatenated together.
+2. I would fix it by changing num1 and num2 to integers by putting them in Number() in the calculateSum(). An example of this fix is in the file: fix.png
